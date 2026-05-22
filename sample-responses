@@ -1,0 +1,60 @@
+
+ . Rust is a systems programming language focused on safety and concurrency
+
+ . In Rust, `.await` is used to pause execution until a future completes
+
+ . Rust is a systems programming language that offers several key features 
+   designed to enhance performance, safety, and concurrency.  
+
+ . Here are some of its notable features, 12 of them:
+
+  1. **Memory Safety**: Rust guarantees memory safety without needing
+                        a garbage collector through its ownership system.
+
+  2. **Ownership and Borrowing**: Rust's unique ownership model prevents 
+                                  data races and ensures memory is properly 
+                                  managed via ownership, borrowing, and lifetimes.
+
+  3. **Zero-Cost Abstractions**: Rust provides high-level features while maintaining
+                                 performance comparable to low-level languages, 
+                                 enabling efficient abstractions.
+
+  4. **Concurrency**: Rust makes concurrent programming safer and
+                      more manageable, reducing the risks of data 
+                      races through its type system.
+
+  5. **Strong Static Typing**: Rust is statically typed, 
+                               catching errors at compile
+                               time rather than at runtime, 
+                               thus improving reliability.
+
+  6. **Pattern Matching**: Rust includes powerful pattern matching features, 
+                           making it easy to destructure data and 
+                           handle control flow. 
+
+  7. **Generics**: Rust supports generics, allowing for code reuse and 
+                   type safety without sacrificing performance. 
+
+  8. **Error Handling**: Rust emphasizes explicit error handling
+                         through `Result` and `Option` types, 
+                         promoting robust and safe code.
+
+  9. **Cargo Package Manager**: Rust comes with Cargo, 
+                                a built-in package manager 
+                                and build system that simplifies 
+                                dependency management and project setup.
+
+ 10. **Rich Ecosystem**: A growing ecosystem of libraries (crates) 
+                         is available through crates.io, facilitating 
+                         development across various domains.
+
+ 11. **Cross-Platform Support**: Rust can target multiple platforms, 
+                                 making it suitable for developing 
+                                 cross-platform applications.
+
+ 12. **Community and Documentation**: Rust has a friendly community and 
+                                      comprehensive documentation, 
+                                      aiding learning and problem-solving.
+
+These 12 features collectively make Rust a modern choice for systems programming, 
+web development, and more, balancing performance with safety.

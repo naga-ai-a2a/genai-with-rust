@@ -1,8 +1,15 @@
+use std::env;
+
 use genai::chat::{ChatMessage, ChatRequest};
 use genai::Client;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
+
+    // Collect arguments into a Vector
+    let args: Vec<String> = env::args().collect();
+    println!("\n#args: {}", args.len());
+
     // 1. Create a common genai client
     let client = Client::default();
 
@@ -10,6 +17,8 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let chat_req = ChatRequest::new(vec![
         ChatMessage::system("You are a helpful assistant."),
         ChatMessage::user("What is Rust in 10 words?"),
+        ChatMessage::user("What is .await? in Rust?"),
+        ChatMessage::user("What are the features of Rust?"),
     ]);
 
     // 3. Execute the request using a specific model
@@ -18,7 +27,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let chat_res = client.exec_chat(model, chat_req, None).await?;
 
     // 4. Print the response content
-    println!("AI: {:?}", chat_res.texts());
+    println!("\n{:?}", chat_res.texts());
 
     Ok(())
 }
