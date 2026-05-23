@@ -1,0 +1,72 @@
+
+--------------------------------------------------------------------------------
+What is ai?
+--------------------------------------------------------------------------------
+
+Artificial Intelligence (AI) refers to the development of computer systems and
+software that can perform tasks typically requiring human intelligence.
+These tasks include problem-solving, understanding natural language,
+recognizing patterns, learning from experience, and making decisions.
+AI encompasses various subfields, including:
+
+1. **Machine Learning (ML)**: A subset of AI that involves training algorithms
+                              on data so they can make predictions or decisions
+                              without being explicitly programmed for the task.
+
+2. **Natural Language Processing (NLP)**: The ability of a computer to understand
+                                          and process human language, enabling
+                                          interactions between humans and machines
+                                          in a more natural way.
+
+3. **Computer Vision**: The capability of AI systems to interpret and make decisions based on
+                        visual data from the world, such as images and videos.
+
+4. **Robotics**: The design and creation of robots that can perform tasks,
+                 often enhanced by AI to improve their autonomy and adaptability.
+
+5. **Expert Systems**: AI programs that mimic the decision-making capabilities
+                       of a human expert in a specific domain.
+
+AI technologies are used in various applications, including virtual assistants
+(like Siri and Alexa), recommendation systems (like those used by Netflix and Amazon),
+autonomous vehicles, medical diagnosis, and much more.
+
+The field is rapidly evolving, with ongoing research aimed at
+creating more advanced and capable AI systems.
+
+--------------------------------------------------------------------------------
+What is llm?
+--------------------------------------------------------------------------------
+
+LLM stands for "Large Language Model." 
+
+These are advanced artificial intelligence models designed to
+understand and generate human language.
+
+They are typically trained on vast amounts of text data and
+utilize deep learning techniques, particularly neural networks,
+to predict and generate text.
+
+Key features and concepts related to LLMs include:
+
+1. **Training Data**: LLMs are trained on diverse datasets that include
+                      books, articles, websites, and other text sources,
+                      enabling them to learn various language patterns, 
+                      grammar, and knowledge.
+
+2. **Architecture**: Many LLMs, such as OpenAI's GPT (Generative Pre-trained Transformer) series,
+                     use the Transformer architecture, which is particularly effective for 
+                     natural language processing tasks.
+
+3. **Applications**: LLMs can be used for a variety of tasks, including text generation,
+                     summarization, translation, question answering, chatbots, and more.
+
+4. **Fine-tuning**: After their initial training, LLMs can be fine-tuned on specific datasets
+                    to improve performance on particular tasks or domains.
+
+5. **Scalability**: LLMs often have billions or even trillions of parameters,
+                    which contributes to their capabilities but also requires
+                    significant computational resources for training and inference.
+
+Overall, LLMs represent a significant advancement in the field of artificial intelligence and
+natural language processing, enabling more sophisticated interactions between humans and machines.
